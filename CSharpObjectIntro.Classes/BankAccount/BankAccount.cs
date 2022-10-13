@@ -76,7 +76,7 @@ namespace CSharpObjectIntro.Classes.BankAccount
         // - See how much money was spent in a given time period
         // - See how much money was spent in different categories
 
-        /*public decimal CheckBalance(DateTime date)
+        public decimal CheckBalance(DateTime date)
         {
             date = Convert.ToDateTime(Console.ReadLine());
             for (int n = 0; n < transactions.Count; n++) ;    
@@ -85,7 +85,7 @@ namespace CSharpObjectIntro.Classes.BankAccount
                 return Balance.Transaction[n] ;
             }
 
-        }*/
+        }
 
         // Extension
         // Work out how much interest is payable on your account
